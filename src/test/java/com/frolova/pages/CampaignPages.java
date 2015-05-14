@@ -5,8 +5,11 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Before;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
+
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Frolova.A on 4/29/15.
@@ -35,17 +38,30 @@ public class CampaignPages extends PageObject {
     @FindBy(xpath = "(//button[@type='button'])[2]")
     private WebElementFacade dobD;
     //////////////////////////////////
-    @FindBy(linkText = "4")
+    @FindBy(xpath = "(//button[@type='button'])[3]")
+    private WebElementFacade dobD2;
+    //////////////////////////////////
+    @FindBy(xpath = "//div[@id='dob2']/div/div/ul/li[3]/a/span")
+    private WebElementFacade chooseDay2;
+    ///////////////////////////////////
+    @FindBy(xpath = "//div/div/div/ul/li[3]/a")
     private WebElementFacade chooseDay;
     //////////////////////////////////
     @FindBy(xpath = "(//button[@type='button'])[3]")
     private WebElementFacade dobM;
     //////////////////////////////////
-    @FindBy(linkText = "Feb")
+    @FindBy(xpath = "(//button[@type='button'])[4]")
+    private WebElementFacade dobM2;
+    //////////////////////////////////
+    @FindBy(xpath = "//div[2]/div/div/ul/li[3]/a")
     private WebElementFacade chooseMon;
        //////////////////////////////////
     @FindBy(xpath = "(//button[@type='button'])[4]")
     private WebElementFacade dobY;
+    //////////////////////////////////
+    //////////////////////////////////
+    @FindBy(xpath = "(//button[@type='button'])[5]")
+    private WebElementFacade dobY2;
     //////////////////////////////////
     @FindBy(linkText = "1990")
     private WebElementFacade chooseYear;
@@ -77,8 +93,16 @@ public class CampaignPages extends PageObject {
     @FindBy(id = "terms")
     private WebElementFacade terms ;
     /////////////////////////////////
+    @FindBy(css = "#mm-btn > strong")
+    private WebElementFacade stepSubmit;
+    /////////////////////////////////
+    /////////////////////////////////
     @FindBy(css = "#signupBtn > strong")
     private WebElementFacade submit;
+    /////////////////////////////////
+    /////////////////////////////////page deposit
+    @FindBy(id = "user-panel-logged-in")
+    private WebElementFacade panel_logged_in;
     /////////////////////////////////
     /////////////////////////////////
     Cookie mmcore = new Cookie("mmcore.opc.enabled", "1");
@@ -108,15 +132,33 @@ public class CampaignPages extends PageObject {
         chooseDay.click();
     }
     ///////////////////////////////////////////////////////////////////////////////////////////
+    public void bithDay2(){
+
+        dobD2.click();
+        chooseDay2.click();
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////
     public void bithMon(){
 
         dobM.click();
         chooseMon.click();
     }
     ///////////////////////////////////////////////////////////////////////////////////////////
+    public void bithMon2(){
+
+        dobM2.click();
+        chooseMon.click();
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////
     public void bithYear(){
 
         dobY.click();
+        chooseYear.click();
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    public void bithYear2(){
+
+        dobY2.click();
         chooseYear.click();
     }
     ///////////////////////////////////////////////////////////////////////////////////////////
@@ -157,7 +199,25 @@ public class CampaignPages extends PageObject {
     ///////////////////////////////////////////////////////////////////////////////////////////
     public void submit(){
         submit.click();
+        waitForWithRefresh();
+
+        }
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    public void stepSubmit(){
+        stepSubmit.click();
+        waitForWithRefresh();
+
+
     }
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    public void three_submit(){
+        stepSubmit.click();
+        waitForWithRefresh();
+        withTimeoutOf(5, TimeUnit.SECONDS).elementIsDisplayed(By.id("user-panel-logged-in"));
+
+    }
+
+
     ///////////////////////////////////////////////////////////////////////////////////////////
     public void terms(){
         terms.click();
@@ -171,8 +231,13 @@ public class CampaignPages extends PageObject {
         driver.navigate().refresh();
     }
     ///////////////////////////////////////////////////////////////////////////////////////////
-    public void clearActionLog(){
-       // clear.click();
+    public void check_cookie(){
+  /*      Set<Cookie> allCookies = driver.manage().getCookies();
+        System.out.println(allCookies);
+        for (Cookie loadedCookie : allCookies) {
+            System.out.println(String.format("%s -> %s", loadedCookie.getName(), loadedCookie.getValue()));
+
+    }*/
 
     }
 

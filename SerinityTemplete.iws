@@ -64,48 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SerenityStatement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-junit/1.0.44/serenity-junit-1.0.44-sources.jar!/net/serenitybdd/junit/runners/SerenityStatement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Temp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/addition/Temp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="124" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerenityRunner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-junit/1.0.44/serenity-junit-1.0.44-sources.jar!/net/serenitybdd/junit/runners/SerenityRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="0" selection-start="9075" selection-end="9075" vertical-scroll-proportion="0.0" vertical-offset="3136" max-vertical-offset="9571">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CampaignSteps.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/steps/CampaignSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="1071">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminSteps.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AdminSteps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/steps/AdminSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="65" selection-start="631" selection-end="631" vertical-scroll-proportion="0.4982639" vertical-offset="36" max-vertical-offset="969">
+            <state line="49" column="0" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="3043">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,8 +78,72 @@
       <file leaf-file-name="AdminStory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/AdminStory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="867">
+            <state line="16" column="26" selection-start="425" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="952">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultStory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/DefaultStory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="4" selection-start="588" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="952">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A2_NoSSN_1StepStory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/A2_NoSSN_1StepStory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="2" selection-start="591" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="901">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A4_NoSSN_3Step.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/A4_NoSSN_3Step.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="33" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="969">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="11" selection-start="3485" selection-end="3485" vertical-scroll-proportion="0.39765102" vertical-offset="1429" max-vertical-offset="2856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A3_SSN_3StepStory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/A3_SSN_3StepStory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="4" selection-start="591" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="935">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestStory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/TestStory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="663">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,11 +151,11 @@
       <file leaf-file-name="AdminPages.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/pages/AdminPages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="1513">
+            <state line="107" column="0" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1621" max-vertical-offset="2737">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2609#2762#0" expanded="true" />
-                <element signature="e#2751#2752#0" expanded="true" />
+                <element signature="e#5280#5433#0" expanded="true" />
+                <element signature="e#5422#5423#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,16 +164,7 @@
       <file leaf-file-name="CampaignPages.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/pages/CampaignPages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="0" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CampaignStory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/CampaignStory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="3" selection-start="1361" selection-end="1484" vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="1020">
+            <state line="137" column="19" selection-start="5023" selection-end="5023" vertical-scroll-proportion="0.0" vertical-offset="2131" max-vertical-offset="4284">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,8 +186,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/pages/Campaign.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/pages/campaign/Campaign.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/frolova/pages/CampaignPages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/frolova/steps/CampaignSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/pages/CampaignP.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/steps/CampaignS.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/steps/campaign/CampaignS.java" />
@@ -185,9 +200,18 @@
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/steps/campaign/AdminSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/steps/steps/AdminSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/step/AdminSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frolova/pages/AdminPages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frolova/features/CampaignStoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/features/CampaignStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frolova/steps/CampaignSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/features/AdminStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frolova/features/DefaultStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frolova/features/A2_NoSSN_1StepStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frolova/features/A3_SSN_3StepStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frolova/features/TestStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frolova/pages/CampaignPages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frolova/steps/AdminSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frolova/features/A4_NoSSN_3Step.java" />
       </list>
     </option>
   </component>
@@ -435,14 +459,24 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Ranorex" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.AdminStory">
-    <configuration default="false" name="AdminStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.frolova.features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.A4_NoSSN_3Step">
+    <configuration default="false" name="DefaultStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SerinityTemplete" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.frolova.features" />
-      <option name="MAIN_CLASS_NAME" value="com.frolova.features.AdminStory" />
+      <option name="MAIN_CLASS_NAME" value="com.frolova.features.DefaultStory" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -459,12 +493,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CampaignStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="A3_SSN_3StepStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SerinityTemplete" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.frolova.features" />
-      <option name="MAIN_CLASS_NAME" value="com.frolova.features.CampaignStory" />
+      <option name="MAIN_CLASS_NAME" value="com.frolova.features.A3_SSN_3StepStory" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -481,14 +515,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CampaignStory.work_with_admin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="A2_NoSSN_1StepStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SerinityTemplete" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.frolova.features" />
-      <option name="MAIN_CLASS_NAME" value="com.frolova.features.CampaignStory" />
-      <option name="METHOD_NAME" value="work_with_admin" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.frolova.features.A2_NoSSN_1StepStory" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -503,14 +537,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CampaignStory.find_actions_in_admin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SerinityTemplete" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.frolova.features" />
-      <option name="MAIN_CLASS_NAME" value="com.frolova.features.CampaignStory" />
-      <option name="METHOD_NAME" value="find_actions_in_admin" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.frolova.features.TestStory" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -525,14 +559,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="AdminStory.find_actiona_in_action_log" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="A4_NoSSN_3Step" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SerinityTemplete" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.frolova.features" />
-      <option name="MAIN_CLASS_NAME" value="com.frolova.features.AdminStory" />
-      <option name="METHOD_NAME" value="find_actiona_in_action_log" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.frolova.features.A4_NoSSN_3Step" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -720,19 +754,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AdminStory.work_with_admin" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AdminStory" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CampaignStory" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CampaignStory.work_with_admin" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CampaignStory.find_actions_in_admin" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.AdminStory.find_actiona_in_action_log" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DefaultStory" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.A3_SSN_3StepStory" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.A2_NoSSN_1StepStory" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestStory" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.A4_NoSSN_3Step" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AdminStory" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AdminStory.find_actiona_in_action_log" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CampaignStory.find_actions_in_admin" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CampaignStory.work_with_admin" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CampaignStory" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.A4_NoSSN_3Step" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.A3_SSN_3StepStory" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestStory" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.A2_NoSSN_1StepStory" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DefaultStory" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -741,6 +775,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b9677882-ac52-48c5-991d-3dda4165dc84" name="Default" comment="" />
@@ -766,11 +817,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16354166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33052632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3231579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -802,7 +853,9 @@
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-junit/1.0.44/serenity-junit-1.0.44-sources.jar!/net/serenitybdd/junit/runners/SerenityStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="918">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,24 +869,18 @@
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-junit/1.0.44/serenity-junit-1.0.44-sources.jar!/net/serenitybdd/junit/runners/SerenityRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="433" column="0" selection-start="15576" selection-end="15576" vertical-scroll-proportion="0.0" vertical-offset="7361" max-vertical-offset="10489">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/steps/CampaignSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="91" selection-start="404" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="952">
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/CampaignStory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="782">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3446#3447#0" expanded="false" />
+            <element signature="e#3474#3475#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="e#7389#7390#0" expanded="false" />
+            <element signature="e#7565#7566#0" expanded="false" />
+            <element signature="e#7600#7601#0" expanded="false" />
+            <element signature="e#11068#11069#0" expanded="false" />
+            <element signature="e#11116#11117#0" expanded="false" />
+            <element signature="e#13364#13365#0" expanded="false" />
+            <element signature="e#13403#13404#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -841,7 +888,9 @@
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-junit/1.0.44/serenity-junit-1.0.44-sources.jar!/net/serenitybdd/junit/runners/SerenityStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="918">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -855,24 +904,18 @@
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-junit/1.0.44/serenity-junit-1.0.44-sources.jar!/net/serenitybdd/junit/runners/SerenityRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="433" column="0" selection-start="15576" selection-end="15576" vertical-scroll-proportion="0.0" vertical-offset="7361" max-vertical-offset="10489">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/steps/CampaignSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="91" selection-start="404" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="952">
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/CampaignStory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="884">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3446#3447#0" expanded="false" />
+            <element signature="e#3474#3475#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="e#7389#7390#0" expanded="false" />
+            <element signature="e#7565#7566#0" expanded="false" />
+            <element signature="e#7600#7601#0" expanded="false" />
+            <element signature="e#11068#11069#0" expanded="false" />
+            <element signature="e#11116#11117#0" expanded="false" />
+            <element signature="e#13364#13365#0" expanded="false" />
+            <element signature="e#13403#13404#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -946,13 +989,6 @@
         <state line="2" column="30" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="62" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.0" vertical-offset="2030" max-vertical-offset="2652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/addition/Temp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="3" selection-start="124" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -960,39 +996,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/steps/CampaignSteps.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Test.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="1071">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/AdminStory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="867">
+        <state line="1" column="5" selection-start="6" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-junit/1.0.44/serenity-junit-1.0.44-sources.jar!/net/serenitybdd/junit/runners/SerenityStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="867">
+        <state line="23" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.33269963" vertical-offset="165" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-junit/1.0.44/serenity-junit-1.0.44-sources.jar!/net/serenitybdd/junit/runners/SerenityRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="0" selection-start="9075" selection-end="9075" vertical-scroll-proportion="0.0" vertical-offset="3136" max-vertical-offset="9571">
+        <state line="246" column="0" selection-start="9075" selection-end="9075" vertical-scroll-proportion="0.0" vertical-offset="3157" max-vertical-offset="9571">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/CampaignStory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/AdminStory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="3" selection-start="1361" selection-end="1484" vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="1020">
+        <state line="16" column="26" selection-start="425" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/DefaultStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="4" selection-start="588" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="952">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1001,28 +1035,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/pages/AdminPages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="1513">
+        <state line="107" column="0" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1621" max-vertical-offset="2737">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2609#2762#0" expanded="true" />
-            <element signature="e#2751#2752#0" expanded="true" />
+            <element signature="e#5280#5433#0" expanded="true" />
+            <element signature="e#5422#5423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/TestStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="663">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/pages/CampaignPages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="3077">
-          <folding />
+        <state line="137" column="19" selection-start="5023" selection-end="5023" vertical-scroll-proportion="0.0" vertical-offset="2131" max-vertical-offset="4284">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/A3_SSN_3StepStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="4" selection-start="591" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="935">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/A2_NoSSN_1StepStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="2" selection-start="591" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="901">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/steps/AdminSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="65" selection-start="631" selection-end="631" vertical-scroll-proportion="0.4982639" vertical-offset="36" max-vertical-offset="969">
+        <state line="49" column="0" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="3043">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/frolova/features/A4_NoSSN_3Step.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="33" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="969">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="11" selection-start="3485" selection-end="3485" vertical-scroll-proportion="0.39765102" vertical-offset="1429" max-vertical-offset="2856">
+          <folding />
         </state>
       </provider>
     </entry>

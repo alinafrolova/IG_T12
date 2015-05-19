@@ -1,0 +1,12 @@
+<acceptance-test-run title="B work with campaign" name="b_work_with_campaign" steps="2" successful="2" failures="0" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="13100" timestamp="2015-05-19T09:55:17.957+03:00">
+  <user-story id="com.frolova.features.DefaultStory" name="Default story" path="com.frolova.features"/>
+  <tags>
+    <tag name="Default story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="10011">
+    <description>Open site</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3045">
+    <description>Fill default step</description>
+  </test-step>
+</acceptance-test-run>

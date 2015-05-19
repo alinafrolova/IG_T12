@@ -1,6 +1,7 @@
 package com.frolova.features;
 
 import com.frolova.steps.AdminSteps;
+import com.frolova.steps.DepositSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
@@ -21,30 +22,31 @@ public class DefaultStory {
 
     @Steps
     AdminSteps adminSteps;
-
+    DepositSteps depositSteps;
 
     @Test
     @WithDriver("chrome")
     public void b_work_with_campaign(){
-        adminSteps.openAdmin();
-        adminSteps.loginAdmin();
-        adminSteps.clearAdmin();
+//        adminSteps.openAdmin();
+//        adminSteps.loginAdmin();
+//        adminSteps.clearAdmin();
         adminSteps.openSite();
         adminSteps.fillDefaultStep();
+        depositSteps.do_deposit();
     }
-    @Test
-    @WithDriver("chrome")
-    public void c_find_actiona_in_action_log(){
-        adminSteps.openAdmin();
-        adminSteps.openActionLog();
-        adminSteps.should_see_definition("Campaign- ","T12a_3_Step_Reg_Sweden");
-        adminSteps.should_see_definition("Content- ","a_page=Default;");
-        adminSteps.should_see_definition("Action- ","t12a_stepone=1,unique;");
-        adminSteps.should_see_definition("Action- ","t12a_steptwo=1,unique;");
-        adminSteps.should_see_definition("Action- ","t12a_stepthree=1,unique;");
-        adminSteps.should_see_definition("Action- ","t12a_registration=1,unique;");
-
-        // adminSteps.should_see_definition("Action- ","t12a_firstdeposit=1,unique;");
-
-    }
+//    @Test
+//    @WithDriver("chrome")
+//    public void c_find_actiona_in_action_log(){
+//        adminSteps.openAdmin();
+//        adminSteps.openActionLog();
+//        adminSteps.should_see_definition("Campaign- ","T12a_3_Step_Reg_Sweden");
+//        adminSteps.should_see_definition("Content- ","a_page=Default;");
+//        adminSteps.should_see_definition("Action- ","t12a_stepone=1,unique;");
+//        adminSteps.should_see_definition("Action- ","t12a_steptwo=1,unique;");
+//        adminSteps.should_see_definition("Action- ","t12a_stepthree=1,unique;");
+//        adminSteps.should_see_definition("Action- ","t12a_registration=1,unique;");
+//
+//        // adminSteps.should_see_definition("Action- ","t12a_firstdeposit=1,unique;");
+//
+//    }
 }

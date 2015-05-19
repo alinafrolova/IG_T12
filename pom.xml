@@ -119,8 +119,10 @@
                     <argLine>-Xmx512m</argLine>
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
+
                     </systemPropertyVariables>
                 </configuration>
+
                 <executions>
                     <execution>
                         <goals>

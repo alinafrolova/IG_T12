@@ -41,7 +41,7 @@ public class CampaignPages extends PageObject {
     @FindBy(xpath = "(//button[@type='button'])[3]")
     private WebElementFacade dobD2;
     //////////////////////////////////
-    @FindBy(xpath = "//div[@id='dob2']/div/div/ul/li[3]/a/span")
+    @FindBy(linkText = "1")
     private WebElementFacade chooseDay2;
     ///////////////////////////////////
     @FindBy(xpath = "//div/div/div/ul/li[3]/a")
@@ -86,9 +86,7 @@ public class CampaignPages extends PageObject {
     //////////////////////////////////
     @FindBy(id = "passwordtwo")
     private WebElementFacade passwordtwo;
-    //////////////////////////////////deposit field
-    @FindBy(id = "amount")
-    private WebElementFacade amount;
+
     //////////////////////////////////button
     @FindBy(id = "terms")
     private WebElementFacade terms ;
@@ -104,6 +102,23 @@ public class CampaignPages extends PageObject {
     @FindBy(id = "user-panel-logged-in")
     private WebElementFacade panel_logged_in;
     /////////////////////////////////
+    @FindBy(id = "amount")
+    private WebElementFacade amount;
+    /////////////////////////////////
+    @FindBy(id = "cardnumber")
+    private WebElementFacade cardnumber;
+    /////////////////////////////////
+    @FindBy(id = "cvv1")
+    private WebElementFacade cvv;
+    /////////////////////////////////
+    @FindBy(xpath = "(//button[@type='button'])[7]")
+    private WebElementFacade dateday;
+    /////////////////////////////////
+    @FindBy(xpath = "(//button[@type='button'])[8]")
+    private WebElementFacade datemon;
+    /////////////////////////////////
+    @FindBy(css = "#btnDeposit > strong")
+    private WebElementFacade submitDeposit;
     /////////////////////////////////
     Cookie mmcore = new Cookie("mmcore.opc.enabled", "1");
     Cookie cfgid = new Cookie("mmcore.cfgid", "1");
@@ -217,10 +232,33 @@ public class CampaignPages extends PageObject {
 
     }
 
-
     ///////////////////////////////////////////////////////////////////////////////////////////
     public void terms(){
         terms.click();
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    public void add_amount(String summ){
+        amount.sendKeys(summ);
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    public void add_card_number(String cardnumbber){
+        cardnumber.click();
+        cardnumber.clear();
+        cardnumber.sendKeys(cardnumbber);
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    public void add_month(){
+       dateday.selectByVisibleText("12");
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    public void add_cvv(){
+        cvv.click();
+        cvv.clear();
+        cvv.sendKeys("500");
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    public void submit_page_deposit(){
+        submitDeposit.click();
     }
     ///////////////////////////////////////////////////////////////////////////////////////////
     public void addCookies(){

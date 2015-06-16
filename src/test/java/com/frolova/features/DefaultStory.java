@@ -1,7 +1,6 @@
 package com.frolova.features;
 
-import com.frolova.steps.AdminSteps;
-import com.frolova.steps.DepositSteps;
+import com.frolova.steps.CampaignSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
@@ -11,42 +10,63 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 /**
- * Created by Frolova.A on 5/14/15.
+ * Created by Frolova.A on 6/13/15.
  */
 @RunWith(SerenityRunner.class)
 public class DefaultStory {
-
     @Managed(uniqueSession = true)
     public WebDriver webdriver;
 
 
     @Steps
-    AdminSteps adminSteps;
-    DepositSteps depositSteps;
+    CampaignSteps campaignSteps;
 
     @Test
     @WithDriver("chrome")
-    public void b_work_with_campaign(){
-//        adminSteps.openAdmin();
-//        adminSteps.loginAdmin();
-//        adminSteps.clearAdmin();
-        adminSteps.openSite();
-        adminSteps.fillDefaultStep();
-        depositSteps.do_deposit();
+    public void work_with_campaign_poker_main_click_btn(){
+
+        campaignSteps.openSiteMain(new String[] {"Poker"});
+        campaignSteps.click_main_btn_join();
+        campaignSteps.fillDefaultStep();
     }
-//    @Test
-//    @WithDriver("chrome")
-//    public void c_find_actiona_in_action_log(){
-//        adminSteps.openAdmin();
-//        adminSteps.openActionLog();
-//        adminSteps.should_see_definition("Campaign- ","T12a_3_Step_Reg_Sweden");
-//        adminSteps.should_see_definition("Content- ","a_page=Default;");
-//        adminSteps.should_see_definition("Action- ","t12a_stepone=1,unique;");
-//        adminSteps.should_see_definition("Action- ","t12a_steptwo=1,unique;");
-//        adminSteps.should_see_definition("Action- ","t12a_stepthree=1,unique;");
-//        adminSteps.should_see_definition("Action- ","t12a_registration=1,unique;");
-//
-//        // adminSteps.should_see_definition("Action- ","t12a_firstdeposit=1,unique;");
-//
-//    }
+    @Test
+    @WithDriver("chrome")
+    public void work_with_campaign_poker_click_banner(){
+
+        campaignSteps.openSiteMain(new String[] {"Poker"});
+        campaignSteps.click_poker_banner_join();
+        campaignSteps.fillDefaultStep();
+    }
+    @Test
+    @WithDriver("chrome")
+    public void work_with_campaign_poker_click_btn(){
+
+        campaignSteps.openSiteMain(new String[] {"Poker"});
+        campaignSteps.click_poker_btn_join();
+        campaignSteps.fillDefaultStep();
+    }
+    @Test
+    @WithDriver("chrome")
+    public void work_with_campaign_poker_click_link(){
+
+        campaignSteps.openSiteMain(new String[] {"Poker"});
+        campaignSteps.click_poker_link_join();
+        campaignSteps.fillDefaultStep();
+    }
+    @Test
+    @WithDriver("chrome")
+    public void work_with_campaign_live_main_click_btn(){
+
+        campaignSteps.openSiteMain(new String[] {"live-casino"});
+        campaignSteps.click_main_btn_join();
+        campaignSteps.fillDefaultStep();
+    }
+    @Test
+    @WithDriver("chrome")
+    public void work_with_campaign_live_click_banner(){
+
+        campaignSteps.openSiteMain(new String[] {"live-casino"});
+        campaignSteps.click_live_banner_join();
+        campaignSteps.fillDefaultStep();
+    }
 }

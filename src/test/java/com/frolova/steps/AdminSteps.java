@@ -1,13 +1,9 @@
 package com.frolova.steps;
 
-import com.frolova.addition.Temp;
+import com.frolova.addition.Mmdriver;
 import com.frolova.pages.AdminPages;
-import com.frolova.pages.CampaignPages;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
-import org.openqa.selenium.Cookie;
-
-import java.util.Random;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.hasItem;
@@ -17,6 +13,7 @@ import static org.junit.Assert.assertThat;
  */
 public class AdminSteps extends ScenarioSteps {
     AdminPages adminPages;
+    Mmdriver mmdriver;
 
     @Step
     ///////////////////////////////////////////////////////////////////////////////////////////
@@ -43,6 +40,11 @@ public class AdminSteps extends ScenarioSteps {
     //////////////////////////////////////////////////////////////////////////////////////////
     public void openActionLog(){
         adminPages.openActionLog();
+        mmdriver.trackAction("t12a_stepone=1");
+        mmdriver.trackAction("t12a_steptwo=1,unique;");
+        mmdriver.trackAction("t12a_stepthree=1,unique;");
+        mmdriver.trackAction("t12a_registration=1");
+        mmdriver.trackAction("t12a_firstdeposit");
        }
 
     @Step
@@ -50,124 +52,37 @@ public class AdminSteps extends ScenarioSteps {
         assertThat(adminPages.getDefinitions(), hasItem(containsString(definition)));
 
     }
+   /////////////////////////////////////////////////////////////////////////////////////////////
+   @Step
+   public void settings_weight_all(){
+       adminPages.openWeights();
+       adminPages.change_weigtsdef("100");
+       adminPages.change_weigts_a2("100");
+       adminPages.change_weigts_a3("100");
+       adminPages.change_weigts_a4("100");
 
-    CampaignPages campaignPages;
-
-    ///////////////////////////////////////////////////////////
-    String name = "MyIG" + Temp.randomtxt(4);
-    String usern = "MyIG" +  Temp.randomtxt(4)+new Random().nextInt(999);
-    String mail = "MyIG" + Temp.randomtxt(4) +new Random().nextInt(999)+ "@maxymiser.com";
-    String ph = "95495758"+ new Random().nextInt(999);
-    private Cookie mmcore;
-
-    @Step
+       adminPages.click_button_save_weight();
+   }
+   //////////////////////////////////////////////////////////////////////////////////////////
+   @Step
+   public void settings_weight_default(){
+       adminPages.openWeights();
+       adminPages.change_weigtsdef("100");
+       adminPages.change_weigts_a2("0");
+       adminPages.change_weigts_a3("0");
+       adminPages.change_weigts_a4("0");
+       adminPages.click_button_save_weight();
+   }
     //////////////////////////////////////////////////////////////////////////////////////////
-    public void openSite(){
-        getDriver().manage().window().maximize();
-        campaignPages.open();}
+    @Step
+    public void settings_weight_a2(){
+        adminPages.openWeights();
+        adminPages.change_weigtsdef("0");
+        adminPages.change_weigts_a2("100");
+        adminPages.change_weigts_a3("0");
+        adminPages.change_weigts_a4("0");
+        adminPages.click_button_save_weight();
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////
-    @Step
-    public void fillDefaultStep(){
-        //  campaignPages.addCookie(mmcore);
-        campaignPages.check_cookie();
-        campaignPages.firstname(name);
-        campaignPages.lastname(name);
-        campaignPages.email(mail);
-        campaignPages.bithDay();
-        campaignPages.bithMon();
-        campaignPages.bithYear();
-        campaignPages.address1("test");
-        campaignPages.postcode("8006466");
-        campaignPages.city();
-        campaignPages.phonenumber(ph);
-        campaignPages.passwordone();
-        campaignPages.passwordtwo();
-        campaignPages.username(usern);
-        campaignPages.terms();
-        campaignPages.submit();
-
-    }
-    ///////////////////////////////////////////////////////////
-    @Step
-    public void fillSecondtStep(){
-        //  campaignPages.addCookie(mmcore);
-        campaignPages.check_cookie();
-        campaignPages.firstname(name);
-        campaignPages.lastname(name);
-        campaignPages.email(mail);
-        campaignPages.bithDay2();
-        campaignPages.bithMon2();
-        campaignPages.bithYear2();
-        campaignPages.address1("test");
-        campaignPages.postcode("8006466");
-        campaignPages.city();
-        campaignPages.phonenumber(ph);
-        campaignPages.passwordone();
-        campaignPages.passwordtwo();
-        campaignPages.username(usern);
-        campaignPages.terms();
-        campaignPages.submit();
-
-    }
-    ///////////////////////////////////////////////////////////
-    @Step
-    public void fillFirstStep(){
-        campaignPages.bithDay();
-        campaignPages.bithMon();
-        campaignPages.bithYear();
-        campaignPages.stepSubmit();
-    }
-    ///////////////////////////////////////////////////////////
-    @Step
-    public void fillTwotStep(){
-        campaignPages.firstname(name);
-        campaignPages.lastname(name);
-        campaignPages.address1("test");
-        campaignPages.postcode("8006466");
-        campaignPages.city();
-        campaignPages.phonenumber(ph);
-        campaignPages.stepSubmit();
-    }
-    ///////////////////////////////////////////////////////////
-    @Step
-    public void fillThreetStep(){
-        campaignPages.email(mail);
-        campaignPages.passwordone();
-        campaignPages.passwordtwo();
-        campaignPages.username(usern);
-        campaignPages.terms();
-        campaignPages.three_submit();
-    }
-    ///////////////////////////////////////////////////////////
-    @Step
-    public void fillFirstA4Step(){
-        campaignPages.firstname(name);
-        campaignPages.lastname(name);
-        campaignPages.email(mail);
-        campaignPages.bithDay();
-        campaignPages.bithMon();
-        campaignPages.bithYear();
-        campaignPages.stepSubmit();
-    }
-    ///////////////////////////////////////////////////////////
-    @Step
-    public void fillTwotA4Step(){
-
-        campaignPages.address1("test");
-        campaignPages.postcode("8006466");
-        campaignPages.city();
-        campaignPages.phonenumber(ph);
-        campaignPages.stepSubmit();
-    }
-    ///////////////////////////////////////////////////////////
-    @Step
-    public void fillThreetA4Step(){
-
-        campaignPages.passwordone();
-        campaignPages.passwordtwo();
-        campaignPages.username(usern);
-        campaignPages.terms();
-        campaignPages.three_submit();
-    }
 }

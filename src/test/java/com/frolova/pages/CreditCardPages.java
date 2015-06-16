@@ -11,14 +11,14 @@ import net.thucydides.core.annotations.DefaultUrl;
 @DefaultUrl("http://www.getcreditcardnumbers.com/how-to-get-a-visa-credit-card")
 public class CreditCardPages extends PageObject {
     @FindBy(xpath = "//button")
-    private WebElementFacade generate;
+    private static WebElementFacade generate;
     //////////////////////////////////
     @FindBy(className = "generatednumber")
-    private WebElementFacade generatednumber;
+    private static WebElementFacade generatednumber;
     //////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////////////////////
-    public void get_generete_card(){
+    public static String get_generete_card(){
         String CARDDef,CARD;
         CARDDef = "4111111111111111";
         generate.click();
@@ -37,6 +37,7 @@ public class CreditCardPages extends PageObject {
 
         } while (Def == CDef);
         System.out.println("CARD " + CARD);
+        return CARD ;
     }
 
     ///////////////////////////////////////////////////////////////////////////////////////////

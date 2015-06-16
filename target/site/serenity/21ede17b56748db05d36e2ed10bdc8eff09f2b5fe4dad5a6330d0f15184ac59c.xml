@@ -1,0 +1,15 @@
+<acceptance-test-run title="Work with campaign live main click btn play" name="work_with_campaign_live_main_click_btn_play" steps="2" successful="1" failures="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="12266" timestamp="2015-06-13T17:13:42.984+03:00">
+  <user-story id="com.frolova.features.NotGeneretedDefaultStory" name="Not genereted default story" path="com.frolova.features"/>
+  <tags>
+    <tag name="Not genereted default story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="6234">
+    <description>Open site main: &lt;span class=&apos;step-parameter&apos;&gt;{live-casino}&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="FAILURE" duration="4">
+    <description>Click live btn play main banner</description>
+    <error>org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[JOIN NOW]&gt;</error>
+    <exception>net.thucydides.core.webdriver.WebdriverAssertionError:org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[JOIN NOW]&gt;&#xd;
+[com.frolova.features.NotGeneretedDefaultStory.work_with_campaign_live_main_click_btn_play(NotGeneretedDefaultStory.java:39)]</exception>
+  </test-step>
+</acceptance-test-run>

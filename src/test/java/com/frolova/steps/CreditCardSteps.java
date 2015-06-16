@@ -19,9 +19,8 @@ public class CreditCardSteps extends ScenarioSteps {
 
     }
     @Step
-    public void generateCard(){
+    public void  generateCard(){
         creditCardPages.get_generete_card();
-
 
     }
 }

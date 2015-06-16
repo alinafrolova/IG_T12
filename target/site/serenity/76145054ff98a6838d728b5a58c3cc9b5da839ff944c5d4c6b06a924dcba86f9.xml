@@ -1,0 +1,9 @@
+<acceptance-test-run title="Work with campaign live click btn play" name="work_with_campaign_live_click_btn_play" steps="1" successful="1" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="11171" timestamp="2015-06-13T17:11:52.503+03:00">
+  <user-story id="com.frolova.features.NotGeneretedDefaultStory" name="Not genereted default story" path="com.frolova.features"/>
+  <tags>
+    <tag name="Not genereted default story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="5461">
+    <description>Open site main: &lt;span class=&apos;step-parameter&apos;&gt;{live-casino}&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

@@ -5,7 +5,6 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
-import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,17 +17,12 @@ import static ch.lambdaj.Lambda.convert;
  * Created by Frolova.A on 4/28/15.
  */
 
-@DefaultUrl("https://ui61.maxymiser.com/Admin/account-igame/529/site-igame-com/438/ActionLog")
+@DefaultUrl("https://ui61.maxymiser.com/Admin/account-rank-interactive/447/site-grosvenorcasinos-com/267/ActionLog")
+
 public class AdminPages extends PageObject {
     private WebDriver driver;
     private String adminCamp,checkCamp,baseUrl,m;
 
-    @Before
-    public void setUp(){
-
-        adminCamp = "https://ui61.maxymiser.com/Admin/account-igame/529/site-igame-com/438/ActionLog";
-
-    }
     @FindBy(id = "Login")
     private WebElementFacade login;
 
@@ -101,7 +95,23 @@ public class AdminPages extends PageObject {
     ///////////////////////////////////////
     @FindBy(id = "bApply")
     private WebElementFacade apply;
+    ///////////////////////////////////////
+    @FindBy(id = "Elements_0__Variants_0__Weight")
+    private WebElementFacade weigtdefault;
+    ///////////////////////////////////////
+    @FindBy(id = "Elements_0__Variants_1__Weight")
+    private WebElementFacade weighta2;
+    ///////////////////////////////////////
+    @FindBy(id = "Elements_0__Variants_2__Weight")
+    private WebElementFacade weighta3;
+    ///////////////////////////////////////
+    @FindBy(id = "Elements_0__Variants_3__Weight")
+    private WebElementFacade weighta4;
+    ///////////////////////////////////////
+    @FindBy(id = "SaveElement")
+    private WebElementFacade saveWeight;
 ///////////////////////////////////////
+
     ///////////////////////////////////////////////////////////////////////////////////////////
 
     public void enterLoginPass(String log, String pass){
@@ -125,8 +135,15 @@ public class AdminPages extends PageObject {
         apply.click();
 
     }
+    /////////////////////////////////////////////////////////////////////////////////////////////
     public void openActionLog() {
-        getDriver().get("https://ui61.maxymiser.com/Admin/account-igame/529/site-igame-com/438/ActionLog/AjaxLoadGrid?configType=Sandbox&ipCategory=OWN_IP&_");
+        getDriver().get("https://ui61.maxymiser.com/Admin/account-rank-interactive/447/site-grosvenorcasinos-com/267/ActionLog/AjaxLoadGrid?configType=Sandbox&ipCategory=OWN_IP&_");
+
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////
+    public void openWeights() {
+        getDriver().get("https://ui61.maxymiser.com/CampaignBuilder/site-grosvenorcasinos-com/267/campaign-t99-registration-ab/17119/CampaignContent");
     }
     /////////////////////////////////////////////////////////////////////////////////////////////
     public void closeDriver(){
@@ -150,6 +167,30 @@ public class AdminPages extends PageObject {
             }
         };
     }
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    public void change_weigtsdef(String weigts){
+        weigtdefault.clear();
+        weigtdefault.sendKeys(weigts);
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    public void change_weigts_a2(String weigts){
+        weighta2.clear();
+        weighta2.sendKeys(weigts);
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    public void change_weigts_a3(String weigts){
+        weighta3.clear();
+        weighta3.sendKeys(weigts);
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    public void change_weigts_a4(String weigts){
+        weighta4.clear();
+        weighta4.sendKeys(weigts);
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    public void click_button_save_weight(){
+        saveWeight.click();
 
+    }
 
 }

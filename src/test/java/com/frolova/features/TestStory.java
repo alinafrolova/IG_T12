@@ -1,6 +1,6 @@
 package com.frolova.features;
 
-import com.frolova.steps.AdminSteps;
+import com.frolova.steps.CampaignSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
@@ -19,15 +19,14 @@ public class TestStory {
 
 
     @Steps
-    AdminSteps adminSteps;
+    CampaignSteps campaignSteps;
 
     @Test
     @WithDriver("chrome")
     public void b_work_with_campaign(){
 
-        adminSteps.openSite();
-        adminSteps.fillFirstStep();
-        adminSteps.fillTwotStep();
-        adminSteps.fillThreetStep();
+        campaignSteps.openTest(new String[] {"live-casino"});
+
+        campaignSteps.TestStep();
     }
 }
